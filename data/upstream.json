@@ -4,65 +4,47 @@
     {
       "repo": "modelscope/evalscope",
       "mode": "merged",
-      "track": {
-        "zh": "能力门禁 · 评测闭环",
-        "en": "Capability gating · Eval loop"
-      },
-      "work": {
-        "zh": "[#1712](https://github.com/modelscope/evalscope/pull/1712) 按声明的 schema 校验 tool-call 参数 · [#1718](https://github.com/modelscope/evalscope/pull/1718)/[#1719](https://github.com/modelscope/evalscope/pull/1719) 沙箱 stdin 隔离与转发 · [#1698](https://github.com/modelscope/evalscope/pull/1698) 上游 generate 失败落进 agent trace",
-        "en": "[#1712](https://github.com/modelscope/evalscope/pull/1712) validate tool-call arguments against the advertised schema · [#1718](https://github.com/modelscope/evalscope/pull/1718)/[#1719](https://github.com/modelscope/evalscope/pull/1719) sandbox stdin isolation and forwarding · [#1698](https://github.com/modelscope/evalscope/pull/1698) record upstream generate failures on the agent trace"
+      "short": {
+        "zh": "tool-call 参数 schema 校验、沙箱 stdin 隔离、失败落 agent trace",
+        "en": "tool-call argument schema validation, sandbox stdin isolation, failures recorded on the agent trace"
       }
     },
     {
       "repo": "latitude-dev/latitude-llm",
       "mode": "merged",
-      "track": {
-        "zh": "可观测性",
-        "en": "Observability"
-      },
-      "work": {
-        "zh": "[#4369](https://github.com/latitude-dev/latitude-llm/pull/4369) webhook 回执携带外部 run 元数据，把派发记录关联到真正启动的 agent run（部分失败不升级 + 有界读取）· [#4615](https://github.com/latitude-dev/latitude-llm/pull/4615) input 模式下输出 MCP input schema",
-        "en": "[#4369](https://github.com/latitude-dev/latitude-llm/pull/4369) let dispatch webhooks return external run metadata, linking a dispatch record to the agent run it actually started (partial failure doesn't escalate; bounded reads) · [#4615](https://github.com/latitude-dev/latitude-llm/pull/4615) emit MCP input schemas in input mode"
+      "short": {
+        "zh": "派发回执关联真正启动的 run、MCP input schema",
+        "en": "linking a dispatch record to the run it actually started, MCP input schemas"
       }
     },
     {
       "repo": "juejin-cn/juejin-usage",
       "mode": "merged",
-      "track": {
-        "zh": "可观测性（计量与归因）",
-        "en": "Observability (metering & attribution)"
-      },
-      "work": {
-        "zh": "[#127](https://github.com/juejin-cn/juejin-usage/pull/127) 修掉只在 macOS 过的 fixture + 整轮 sync 上沙箱，CI 转双平台矩阵（套件 64s → 1.4s）· [#98](https://github.com/juejin-cn/juejin-usage/pull/98) 补缓存单价，命中缓存的 Token 不再按 0 计费 · [#90](https://github.com/juejin-cn/juejin-usage/pull/90)/[#92](https://github.com/juejin-cn/juejin-usage/pull/92) 增量续读的项目归属与双倍计数",
-        "en": "[#127](https://github.com/juejin-cn/juejin-usage/pull/127) fix a macOS-only fixture and sandbox two full sync rounds — CI moved to a dual-platform matrix, suite 64s → 1.4s · [#98](https://github.com/juejin-cn/juejin-usage/pull/98) add cache pricing so cached tokens stop billing at zero · [#90](https://github.com/juejin-cn/juejin-usage/pull/90)/[#92](https://github.com/juejin-cn/juejin-usage/pull/92) project attribution and double counting across incremental reads"
+      "short": {
+        "zh": "增量读取的项目归属与重复计数、缓存计价、CI 双平台矩阵",
+        "en": "project attribution and double counting across incremental reads, cache pricing, dual-platform CI"
       }
     },
     {
       "repo": "agno-agi/agno",
       "mode": "in_review",
-      "track": {
-        "zh": "运行时与上下文",
-        "en": "Runtime & context"
-      },
-      "work": {
-        "zh": "生产使用中定位的 **{issues} 个 issue + {prs} 个 PR**：[#8341](https://github.com/agno-agi/agno/pull/8341) continued run 的 session_state 漂移 · [#8344](https://github.com/agno-agi/agno/pull/8344) OpenAI 兼容端历史 tool_call 参数消毒 · [#9795](https://github.com/agno-agi/agno/pull/9795) offload 结果的有界 JSON-pointer 读取",
-        "en": "**{issues} issues + {prs} PRs** found while running it in production: [#8341](https://github.com/agno-agi/agno/pull/8341) `session_state` drift across continued runs · [#8344](https://github.com/agno-agi/agno/pull/8344) sanitize historical tool-call arguments for OpenAI-compatible providers · [#9795](https://github.com/agno-agi/agno/pull/9795) bounded JSON-pointer reads from offloaded results"
+      "short": {
+        "zh": "生产使用中定位的 session_state 漂移、tool_call 参数消毒、offload 结果有界读取",
+        "en": "found in production: `session_state` drift, tool-call argument sanitizing, bounded reads from offloaded results"
       }
     }
   ],
   "i18n": {
     "zh": {
       "file": "README.md",
-      "header": "| 上游项目 | 对应主线 | Star | 已合入 | 代表工作 |",
-      "align": "|---|---|---:|---:|---|",
-      "in_review": "评审中",
+      "merged_row": "- [{repo}](https://github.com/{repo}) `{stars}★` — **{merged} merged**，{short}",
+      "review_row": "- [{repo}](https://github.com/{repo}) `{stars}★` — **{prs} PR + {issues} issue** 评审中，{short}",
       "intro": "**{total} 个已合入上游的 PR**"
     },
     "en": {
       "file": "README.en.md",
-      "header": "| Upstream | Track | Stars | Merged | Representative work |",
-      "align": "|---|---|---:|---:|---|",
-      "in_review": "in review",
+      "merged_row": "- [{repo}](https://github.com/{repo}) `{stars}★` — **{merged} merged**, {short}",
+      "review_row": "- [{repo}](https://github.com/{repo}) `{stars}★` — **{prs} PRs + {issues} issues** in review, {short}",
       "intro": "**{total} merged upstream PRs**"
     }
   }

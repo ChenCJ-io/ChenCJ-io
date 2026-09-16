@@ -105,17 +105,17 @@ def main() -> int:
         path = ROOT / meta["file"]
         original = path.read_text(encoding="utf-8")
 
-        lines = [meta["header"], meta["align"]]
+        lines = []
         for row in rows:
             entry, counts = row["entry"], row["counts"]
-            if entry["mode"] == "in_review":
-                merged_cell = meta["in_review"]
-            else:
-                merged_cell = f"**{counts['merged']}**"
-            work = entry["work"][lang].format(**counts)
+            template = meta["review_row"] if entry["mode"] == "in_review" else meta["merged_row"]
             lines.append(
-                f"| [{entry['repo']}](https://github.com/{entry['repo']}) "
-                f"| {entry['track'][lang]} | {row['stars']} | {merged_cell} | {work} |"
+                template.format(
+                    repo=entry["repo"],
+                    stars=row["stars"],
+                    short=entry["short"][lang],
+                    **counts,
+                )
             )
 
         updated = replace_marked(original, "oss-table", "\n" + "\n".join(lines) + "\n")
