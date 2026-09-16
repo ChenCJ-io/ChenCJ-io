@@ -1,7 +1,7 @@
 <h3 align="center">Hi there 👋 I'm Chunjie Chen</h3>
 
 <p align="center">
-  AI Agent Engineer · Xiamen, China · <a href="./README.md">中文</a>
+  AI Agent Engineer · Xiamen, China · <a href="mailto:2503693261@qq.com">2503693261@qq.com</a> · <a href="./README.md">中文</a>
 </p>
 
 ---
@@ -48,9 +48,3 @@
 ![Langfuse](https://img.shields.io/badge/Langfuse-101014?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-
----
-
-<p align="center">
-  <a href="mailto:2503693261@qq.com">📮 2503693261@qq.com</a>
-</p>
