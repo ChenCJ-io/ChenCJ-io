@@ -1,27 +1,36 @@
-### Hi there 👋 我是陈纯杰
+<h3 align="center">Hi there 👋 我是陈纯杰</h3>
 
-<sub><b>中文</b> · <a href="./README.en.md">English</a></sub>
+<p align="center">
+  AI Agent 工程师 · 坐标厦门 · <a href="./README.en.md">English</a>
+</p>
 
-- 🧑‍💻 AI Agent 工程师，坐标厦门
-- 🏗️ 主攻方向：意图路由与能力门禁、工具契约与版本治理、全链路可观测性、评测闭环与发版门禁
-- 🧩 关注 Agent Harness 设计：agent loop、tool use、context engineering、Skill 与 MCP 生态
-- 🔍 聚焦 Agent 上线后的行为稳定性——模型 / 提示词 / 工具 / 上下文变更下的回归可验证性
-- 🌱 在写 [AgentRig](https://github.com/ChenCJ-io/agentrig)：MCP 原生的 Agent 回归评测与发布门禁基础设施
-- 🎓 此前在南京争锋：Multi-Agent 混沌工程智能体（Go + EINO DAG 编排、三层知识图谱、向量 + 图谱 + rerank 混合检索，召回 62% → 89%）
-- 📮 2503693261@qq.com
+---
+
+- 🏗️ **主攻方向** — 意图路由与能力门禁、工具契约与版本治理、全链路可观测性、评测闭环与发版门禁
+- 🧩 **Agent Harness** — agent loop、tool use、context engineering、Skill 与 MCP 生态；日常以 Claude Code / Codex 为主力 coding agent
+- 🔍 **关注点** — Agent 上线后的行为稳定性：模型 / 提示词 / 工具 / 上下文变更下的回归可验证性
+- 🌱 **[AgentRig](https://github.com/ChenCJ-io/agentrig)** — MCP 原生的 Agent 回归评测与发布门禁基础设施
+- 🔌 **[Codex Capacity Guard](https://github.com/ChenCJ-io/codex-capacity-guard)** — 容量错误后在同一会话、同一模型续跑的 Codex 插件，不做模型降级
+- 🎓 **此前** — 南京争锋，Multi-Agent 混沌工程智能体（Go + EINO DAG 编排、三层知识图谱、混合检索，召回 62% → 89%）
+
+---
 
 #### 🌱 开源贡献
 
-<!-- oss-intro:start -->**19 个已合入上游的 PR**<!-- oss-intro:end -->，集中在契约防御、可观测关联、增量数据一致性三个主题。
+<!-- oss-intro:start -->
+**19 个已合入上游的 PR**，集中在契约防御、可观测关联、增量数据一致性三个主题。
+<!-- oss-intro:end -->
 
 <!-- oss-table:start -->
-- [modelscope/evalscope](https://github.com/modelscope/evalscope) `3.4k★` — **7 merged**，tool-call 参数 schema 校验、沙箱 stdin 隔离、失败落 agent trace
-- [latitude-dev/latitude-llm](https://github.com/latitude-dev/latitude-llm) `4.6k★` — **2 merged**，派发回执关联真正启动的 run、MCP input schema
-- [juejin-cn/juejin-usage](https://github.com/juejin-cn/juejin-usage) `120★` — **10 merged**，增量读取的项目归属与重复计数、缓存计价、CI 双平台矩阵
-- [agno-agi/agno](https://github.com/agno-agi/agno) `42k★` — **9 PR + 8 issue** 评审中，生产使用中定位的 session_state 漂移、tool_call 参数消毒、offload 结果有界读取
+- **[modelscope/evalscope](https://github.com/modelscope/evalscope)** · 3.4k★ · **7 merged**<br><sub>tool-call 参数 schema 校验 · 沙箱 stdin 隔离 · 失败落 agent trace</sub>
+- **[latitude-dev/latitude-llm](https://github.com/latitude-dev/latitude-llm)** · 4.6k★ · **2 merged**<br><sub>派发回执关联真正启动的 run · MCP input schema</sub>
+- **[juejin-cn/juejin-usage](https://github.com/juejin-cn/juejin-usage)** · 120★ · **10 merged**<br><sub>增量读取的项目归属与重复计数 · 缓存计价 · CI 双平台矩阵</sub>
+- **[agno-agi/agno](https://github.com/agno-agi/agno)** · 42k★ · **9 PR + 8 issue 评审中**<br><sub>生产中定位的 session_state 漂移 · tool_call 参数消毒 · offload 结果有界读取</sub>
 <!-- oss-table:end -->
 
 <sub>计数为上游已 merge 的 PR，不含自有仓库；自动更新于 <!-- oss-asof:start -->2026-09-17<!-- oss-asof:end -->。</sub>
+
+---
 
 #### 🧰 Languages & Tools
 
@@ -31,9 +40,17 @@
 ![Agno](https://img.shields.io/badge/Agno-1B1B1F?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-5B5BD6?style=flat-square)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-412991?style=flat-square)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white)
 ![Langfuse](https://img.shields.io/badge/Langfuse-101014?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+
+---
+
+<p align="center">
+  <a href="mailto:2503693261@qq.com">📮 2503693261@qq.com</a>
+</p>

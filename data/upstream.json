@@ -5,47 +5,47 @@
       "repo": "modelscope/evalscope",
       "mode": "merged",
       "short": {
-        "zh": "tool-call 参数 schema 校验、沙箱 stdin 隔离、失败落 agent trace",
-        "en": "tool-call argument schema validation, sandbox stdin isolation, failures recorded on the agent trace"
+        "zh": "tool-call 参数 schema 校验 · 沙箱 stdin 隔离 · 失败落 agent trace",
+        "en": "tool-call argument schema validation · sandbox stdin isolation · failures recorded on the agent trace"
       }
     },
     {
       "repo": "latitude-dev/latitude-llm",
       "mode": "merged",
       "short": {
-        "zh": "派发回执关联真正启动的 run、MCP input schema",
-        "en": "linking a dispatch record to the run it actually started, MCP input schemas"
+        "zh": "派发回执关联真正启动的 run · MCP input schema",
+        "en": "linking a dispatch record to the run it actually started · MCP input schemas"
       }
     },
     {
       "repo": "juejin-cn/juejin-usage",
       "mode": "merged",
       "short": {
-        "zh": "增量读取的项目归属与重复计数、缓存计价、CI 双平台矩阵",
-        "en": "project attribution and double counting across incremental reads, cache pricing, dual-platform CI"
+        "zh": "增量读取的项目归属与重复计数 · 缓存计价 · CI 双平台矩阵",
+        "en": "project attribution and double counting across incremental reads · cache pricing · dual-platform CI"
       }
     },
     {
       "repo": "agno-agi/agno",
       "mode": "in_review",
       "short": {
-        "zh": "生产使用中定位的 session_state 漂移、tool_call 参数消毒、offload 结果有界读取",
-        "en": "found in production: `session_state` drift, tool-call argument sanitizing, bounded reads from offloaded results"
+        "zh": "生产中定位的 session_state 漂移 · tool_call 参数消毒 · offload 结果有界读取",
+        "en": "found in production: `session_state` drift · tool-call argument sanitizing · bounded reads from offloaded results"
       }
     }
   ],
   "i18n": {
     "zh": {
       "file": "README.md",
-      "merged_row": "- [{repo}](https://github.com/{repo}) `{stars}★` — **{merged} merged**，{short}",
-      "review_row": "- [{repo}](https://github.com/{repo}) `{stars}★` — **{prs} PR + {issues} issue** 评审中，{short}",
-      "intro": "**{total} 个已合入上游的 PR**"
+      "merged_row": "- **[{repo}](https://github.com/{repo})** · {stars}★ · **{merged} merged**<br><sub>{short}</sub>",
+      "review_row": "- **[{repo}](https://github.com/{repo})** · {stars}★ · **{prs} PR + {issues} issue 评审中**<br><sub>{short}</sub>",
+      "intro": "**{total} 个已合入上游的 PR**，集中在契约防御、可观测关联、增量数据一致性三个主题。"
     },
     "en": {
       "file": "README.en.md",
-      "merged_row": "- [{repo}](https://github.com/{repo}) `{stars}★` — **{merged} merged**, {short}",
-      "review_row": "- [{repo}](https://github.com/{repo}) `{stars}★` — **{prs} PRs + {issues} issues** in review, {short}",
-      "intro": "**{total} merged upstream PRs**"
+      "merged_row": "- **[{repo}](https://github.com/{repo})** · {stars}★ · **{merged} merged**<br><sub>{short}</sub>",
+      "review_row": "- **[{repo}](https://github.com/{repo})** · {stars}★ · **{prs} PRs + {issues} issues in review**<br><sub>{short}</sub>",
+      "intro": "**{total} merged upstream PRs**, clustered around contract defense, correlatable observability, and incremental-data consistency."
     }
   }
 }

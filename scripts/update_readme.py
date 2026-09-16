@@ -120,8 +120,10 @@ def main() -> int:
             )
 
         updated = replace_marked(original, "oss-table", "\n" + "\n".join(lines) + "\n")
+        # Markers must sit on their own lines: an inline HTML comment touching `**`
+        # stops GitHub from parsing the emphasis, and the asterisks render literally.
         updated = replace_marked(
-            updated, "oss-intro", meta["intro"].format(total=total_merged)
+            updated, "oss-intro", "\n" + meta["intro"].format(total=total_merged) + "\n"
         )
         # Actions runs in UTC; pin to Asia/Shanghai so local and CI agree on the date.
         today = datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
