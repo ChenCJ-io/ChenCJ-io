@@ -3,10 +3,11 @@
 <sub><b>中文</b> · <a href="./README.en.md">English</a></sub>
 
 - 🧑‍💻 AI Agent 工程师，坐标厦门
-- 🏗️ 现在在做 Agent 研发：意图分发（路由规则带 `evidence` 出处，从 bug 里长出来）、可观测性（受限诊断 + 告警治理）、评测闭环（11 个 Skill 咬合成回归流水线）
-- 🔍 我关心的不是 Agent 能不能跑通 demo，是上线之后——模型、提示词、工具任意一处变了，行为还成不成立
-- 🌱 在写 [AgentRig](https://github.com/ChenCJ-io/agentrig)：让每一次 Agent 变更都能被回归、被追责
-- 🎓 此前在南京争锋做 Multi-Agent 混沌工程智能体（Go + EINO + 三层知识图谱，召回 62% → 89%）
+- 🏗️ 主攻方向：意图路由与能力门禁、工具契约与版本治理、全链路可观测性、评测闭环与发版门禁
+- 🧩 关注 Agent Harness 设计：agent loop、tool use、context engineering、Skill 与 MCP 生态
+- 🔍 聚焦 Agent 上线后的行为稳定性——模型 / 提示词 / 工具 / 上下文变更下的回归可验证性
+- 🌱 在写 [AgentRig](https://github.com/ChenCJ-io/agentrig)：MCP 原生的 Agent 回归评测与发布门禁基础设施
+- 🎓 此前在南京争锋：Multi-Agent 混沌工程智能体（Go + EINO DAG 编排、三层知识图谱、向量 + 图谱 + rerank 混合检索，召回 62% → 89%）
 - 📮 2503693261@qq.com
 
 #### 🌱 开源贡献
@@ -20,7 +21,7 @@
 - [agno-agi/agno](https://github.com/agno-agi/agno) `42k★` — **9 PR + 8 issue** 评审中，生产使用中定位的 session_state 漂移、tool_call 参数消毒、offload 结果有界读取
 <!-- oss-table:end -->
 
-<sub>计数为上游已 merge 的 PR，不含自有仓库；自动更新于 <!-- oss-asof:start -->2026-09-16<!-- oss-asof:end -->。</sub>
+<sub>计数为上游已 merge 的 PR，不含自有仓库；自动更新于 <!-- oss-asof:start -->2026-09-17<!-- oss-asof:end -->。</sub>
 
 #### 🧰 Languages & Tools
 

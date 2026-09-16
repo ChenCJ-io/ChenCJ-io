@@ -3,10 +3,11 @@
 <sub><a href="./README.md">中文</a> · <b>English</b></sub>
 
 - 🧑‍💻 AI Agent engineer, based in Xiamen, China
-- 🏗️ Currently building agents: intent routing (every rule carries an `evidence` trail — rules grow out of bugs), observability (bounded diagnostics + alert governance), evaluation loops (11 skills interlocking into a regression pipeline)
-- 🔍 What interests me isn't whether an agent demos well — it's what happens after it ships, when the model, the prompt or the tools change
-- 🌱 Building [AgentRig](https://github.com/ChenCJ-io/agentrig): making every agent change something you can regress and audit
-- 🎓 Previously: a multi-agent chaos-engineering system at Nanjing Zhengfeng (Go + EINO + a three-tier knowledge graph, recall 62% → 89%)
+- 🏗️ Focus areas: intent routing & capability gating, tool contracts & version governance, end-to-end observability, evaluation loops & release gating
+- 🧩 Interested in agent harness design: agent loop, tool use, context engineering, skills and the MCP ecosystem
+- 🔍 Working on post-deployment behavioral stability — verifiable regression under model / prompt / tool / context change
+- 🌱 Building [AgentRig](https://github.com/ChenCJ-io/agentrig): MCP-native infrastructure for agent regression evaluation and release gating
+- 🎓 Previously at Nanjing Zhengfeng: a multi-agent chaos-engineering system (Go + EINO DAG orchestration, three-tier knowledge graph, hybrid vector + graph + rerank retrieval, recall 62% → 89%)
 - 📮 2503693261@qq.com
 
 #### 🌱 Open source
@@ -20,7 +21,7 @@
 - [agno-agi/agno](https://github.com/agno-agi/agno) `42k★` — **9 PRs + 8 issues** in review, found in production: `session_state` drift, tool-call argument sanitizing, bounded reads from offloaded results
 <!-- oss-table:end -->
 
-<sub>Counts are PRs merged upstream, excluding my own repos; auto-updated <!-- oss-asof:start -->2026-09-16<!-- oss-asof:end -->.</sub>
+<sub>Counts are PRs merged upstream, excluding my own repos; auto-updated <!-- oss-asof:start -->2026-09-17<!-- oss-asof:end -->.</sub>
 
 #### 🧰 Languages & Tools
 

@@ -21,8 +21,9 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "upstream.json"
@@ -122,7 +123,9 @@ def main() -> int:
         updated = replace_marked(
             updated, "oss-intro", meta["intro"].format(total=total_merged)
         )
-        updated = replace_marked(updated, "oss-asof", date.today().isoformat())
+        # Actions runs in UTC; pin to Asia/Shanghai so local and CI agree on the date.
+        today = datetime.now(ZoneInfo("Asia/Shanghai")).date().isoformat()
+        updated = replace_marked(updated, "oss-asof", today)
 
         if updated != original:
             changed = True
