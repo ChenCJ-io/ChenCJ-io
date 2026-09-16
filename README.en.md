@@ -1,4 +1,4 @@
-<h3 align="center">Hi there 👋 I'm Chunjie Chen</h3>
+<h3 align="center">Hi there 👋 I'm CCJ</h3>
 
 <p align="center">
   AI Agent Engineer · Xiamen, China · <a href="mailto:2503693261@qq.com">2503693261@qq.com</a> · <a href="./README.md">中文</a>

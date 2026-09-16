@@ -1,4 +1,4 @@
-<h3 align="center">Hi there 👋 我是陈纯杰</h3>
+<h3 align="center">Hi there 👋 我是 CCJ</h3>
 
 <p align="center">
   AI Agent 工程师 · 坐标厦门 · <a href="mailto:2503693261@qq.com">2503693261@qq.com</a> · <a href="./README.en.md">English</a>
