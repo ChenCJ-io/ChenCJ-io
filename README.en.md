@@ -20,7 +20,7 @@
 - [agno-agi/agno](https://github.com/agno-agi/agno) `42k★` — **9 PRs + 8 issues** in review, found in production: `session_state` drift, tool-call argument sanitizing, bounded reads from offloaded results
 <!-- oss-table:end -->
 
-<sub>Counts are PRs merged upstream, excluding my own repos; auto-updated <!-- oss-asof:start -->2026-09-17<!-- oss-asof:end -->.</sub>
+<sub>Counts are PRs merged upstream, excluding my own repos; auto-updated <!-- oss-asof:start -->2026-09-16<!-- oss-asof:end -->.</sub>
 
 #### 🧰 Languages & Tools
 
