@@ -11,7 +11,6 @@
 - 🔍 **What I work on** — post-deployment behavioral stability: verifiable regression under model / prompt / tool / context change
 - 🌱 **[AgentRig](https://github.com/ChenCJ-io/agentrig)** — MCP-native infrastructure for agent regression evaluation and release gating
 - 🔌 **[Codex Capacity Guard](https://github.com/ChenCJ-io/codex-capacity-guard)** — resumes after a capacity error in the same conversation with the same model, never falling back to another one
-- 🎓 **Previously** — Nanjing Zhengfeng, a multi-agent chaos-engineering system (Go + EINO DAG orchestration, three-tier knowledge graph, hybrid retrieval, recall 62% → 89%)
 
 ---
 

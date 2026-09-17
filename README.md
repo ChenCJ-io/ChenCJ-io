@@ -11,7 +11,6 @@
 - 🔍 **关注点** — Agent 上线后的行为稳定性：模型 / 提示词 / 工具 / 上下文变更下的回归可验证性
 - 🌱 **[AgentRig](https://github.com/ChenCJ-io/agentrig)** — MCP 原生的 Agent 回归评测与发布门禁基础设施
 - 🔌 **[Codex Capacity Guard](https://github.com/ChenCJ-io/codex-capacity-guard)** — 容量错误后在同一会话、同一模型续跑的 Codex 插件，不做模型降级
-- 🎓 **此前** — 南京争锋，Multi-Agent 混沌工程智能体（Go + EINO DAG 编排、三层知识图谱、混合检索，召回 62% → 89%）
 
 ---
 
