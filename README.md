@@ -27,7 +27,7 @@
 - **[agno-agi/agno](https://github.com/agno-agi/agno)** · 42k★ · **9 PR + 8 issue 评审中**<br><sub>生产中定位的 session_state 漂移 · tool_call 参数消毒 · offload 结果有界读取</sub>
 <!-- oss-table:end -->
 
-<sub>计数为上游已 merge 的 PR，不含自有仓库；自动更新于 <!-- oss-asof:start -->2026-09-19<!-- oss-asof:end -->。</sub>
+<sub>计数为上游已 merge 的 PR，不含自有仓库；自动更新于 <!-- oss-asof:start -->2026-09-20<!-- oss-asof:end -->。</sub>
 
 ---
 
