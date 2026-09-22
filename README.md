@@ -23,11 +23,11 @@
 <!-- oss-table:start -->
 - **[modelscope/evalscope](https://github.com/modelscope/evalscope)** · 3.5k★ · **7 merged**<br><sub>tool-call 参数 schema 校验 · 沙箱 stdin 隔离 · 失败落 agent trace</sub>
 - **[latitude-dev/latitude-llm](https://github.com/latitude-dev/latitude-llm)** · 4.7k★ · **2 merged**<br><sub>派发回执关联真正启动的 run · MCP input schema</sub>
-- **[juejin-cn/juejin-usage](https://github.com/juejin-cn/juejin-usage)** · 128★ · **10 merged**<br><sub>增量读取的项目归属与重复计数 · 缓存计价 · CI 双平台矩阵</sub>
+- **[juejin-cn/juejin-usage](https://github.com/juejin-cn/juejin-usage)** · 133★ · **10 merged**<br><sub>增量读取的项目归属与重复计数 · 缓存计价 · CI 双平台矩阵</sub>
 - **[agno-agi/agno](https://github.com/agno-agi/agno)** · 42k★ · **9 PR + 8 issue 评审中**<br><sub>生产中定位的 session_state 漂移 · tool_call 参数消毒 · offload 结果有界读取</sub>
 <!-- oss-table:end -->
 
-<sub>计数为上游已 merge 的 PR，不含自有仓库；自动更新于 <!-- oss-asof:start -->2026-09-22<!-- oss-asof:end -->。</sub>
+<sub>计数为上游已 merge 的 PR，不含自有仓库；自动更新于 <!-- oss-asof:start -->2026-09-23<!-- oss-asof:end -->。</sub>
 
 ---
 
