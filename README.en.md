@@ -17,17 +17,17 @@
 #### 🌱 Open source
 
 <!-- oss-intro:start -->
-**19 merged upstream PRs**, clustered around contract defense, correlatable observability, and incremental-data consistency.
+**20 merged upstream PRs**, clustered around contract defense, correlatable observability, and incremental-data consistency.
 <!-- oss-intro:end -->
 
 <!-- oss-table:start -->
 - **[modelscope/evalscope](https://github.com/modelscope/evalscope)** · 3.5k★ · **7 merged**<br><sub>tool-call argument schema validation · sandbox stdin isolation · failures recorded on the agent trace</sub>
 - **[latitude-dev/latitude-llm](https://github.com/latitude-dev/latitude-llm)** · 4.7k★ · **2 merged**<br><sub>linking a dispatch record to the run it actually started · MCP input schemas</sub>
-- **[juejin-cn/juejin-usage](https://github.com/juejin-cn/juejin-usage)** · 138★ · **10 merged**<br><sub>project attribution and double counting across incremental reads · cache pricing · dual-platform CI</sub>
-- **[agno-agi/agno](https://github.com/agno-agi/agno)** · 42k★ · **9 PRs + 8 issues in review**<br><sub>found in production: `session_state` drift · tool-call argument sanitizing · bounded reads from offloaded results</sub>
+- **[juejin-cn/juejin-usage](https://github.com/juejin-cn/juejin-usage)** · 139★ · **11 merged**<br><sub>project attribution and double counting across incremental reads · cache pricing · dual-platform CI</sub>
+- **[agno-agi/agno](https://github.com/agno-agi/agno)** · 43k★ · **9 PRs + 8 issues in review**<br><sub>found in production: `session_state` drift · tool-call argument sanitizing · bounded reads from offloaded results</sub>
 <!-- oss-table:end -->
 
-<sub>Counts are PRs merged upstream, excluding my own repos; auto-updated <!-- oss-asof:start -->2026-10-02<!-- oss-asof:end -->.</sub>
+<sub>Counts are PRs merged upstream, excluding my own repos; auto-updated <!-- oss-asof:start -->2026-10-03<!-- oss-asof:end -->.</sub>
 
 ---
 
